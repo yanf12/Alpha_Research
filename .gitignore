@@ -1,0 +1,7 @@
+# Keep source code, notebooks, and generated charts from the research archive.
+Research/**
+!Research/Alpha4/
+!Research/Alpha4/**/
+!Research/Alpha4/**/*.py
+!Research/Alpha4/**/*.ipynb
+!Research/Alpha4/**/*.png
