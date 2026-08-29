@@ -1,7 +1,15 @@
-# Keep source code, notebooks, and generated charts from the research archive.
-Research/**
-!Research/Alpha4/
-!Research/Alpha4/**/
-!Research/Alpha4/**/*.py
-!Research/Alpha4/**/*.ipynb
-!Research/Alpha4/**/*.png
+# System and editor metadata
+.DS_Store
+._*
+__MACOSX/
+.idea/
+
+# Jupyter-generated checkpoints
+.ipynb_checkpoints/
+
+# Raw and generated research data
+Research/Alpha4/data/
+Research/Alpha4/alphas/**/matrix/
+Research/Alpha4/alphas/**/simres/
+Research/Alpha4/ic_test_results.csv
+*.pkl
